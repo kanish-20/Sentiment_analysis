@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Sentiment Analysis (Naive Bayes)</h1>
+        <form method="POST">
+            <textarea name="review" placeholder="Enter your review here..." required>{{ review if review else '' }}</textarea>
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if prediction_text %}
+            <h3>{{ prediction_text }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
