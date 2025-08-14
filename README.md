@@ -47,5 +47,45 @@ pip install -r requirements.txt
 ## Usage
 
 ### 1. Train the Model
+```
+python train_model.py
+```
+
+### 2.Run the Flask App
+```
+python app.py
+```
+## Open your browser and go to:
+```
+http://127.0.0.1:5000/
+```
+
+## Future Improvements
+
+- Use TF-IDF Vectorizer for better feature representation.
+
+- Expand dataset to include more diverse reviews for higher accuracy.
+
+- Add color-coded output for sentiments (green=positive, red=negative, yellow=neutral).
+
+- Replace Naive Bayes with more advanced models like Logistic Regression, Random Forest, or BERT for better predictions.
+
+## Dependencies
+
+- Python 3.11+
+
+- Flask
+
+- scikit-learn
+
+- pandas
+
+- joblib
+
+## Screenshots
+
+![WhatsApp Image 2025-08-13 at 12 22 05 (2)](https://github.com/user-attachments/assets/374ba8e2-7378-42fa-bdf5-bf2b7625506e)
+![WhatsApp Image 2025-08-13 at 19 26 22](https://github.com/user-attachments/assets/9eb5f849-031c-43a1-b172-9d0269c99206)
+![WhatsApp Image 2025-08-13 at 19 26 22 (1)](https://github.com/user-attachments/assets/d907f909-c5e5-4ea9-a1e7-ce5a6d9a1664)
 
 
