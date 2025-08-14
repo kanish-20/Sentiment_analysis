@@ -84,7 +84,6 @@ http://127.0.0.1:5000/
 
 ## Screenshots
 
-![WhatsApp Image 2025-08-13 at 12 22 05 (2)](https://github.com/user-attachments/assets/374ba8e2-7378-42fa-bdf5-bf2b7625506e)
 ![WhatsApp Image 2025-08-13 at 19 26 22](https://github.com/user-attachments/assets/9eb5f849-031c-43a1-b172-9d0269c99206)
 ![WhatsApp Image 2025-08-13 at 19 26 22 (1)](https://github.com/user-attachments/assets/d907f909-c5e5-4ea9-a1e7-ce5a6d9a1664)
 
